@@ -18,17 +18,40 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 main div {
     text-align: center;
+    
 }
-footer{
-    background: rgb(2,0,36);
+body{
+    margin: 0px;
+    position: relative;
 }
+
 img{
     margin: 15px;
 }
 main p img {
     width: 150px;
     height: 150px;
+}
+.info__description__img{
+    float: right;
+    margin: 10px;
+    width: 450px;
+}
+.info__description__img--left{
+    float: left;
+}
+.socialmedia{
+    background-color: #292727;
+    bottom: -200px;
+}
+.socialmedia__container{
+    display: grid;
+    list-style: none;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px;
+}
+.socialmedia__container_img{
+    border-radius:150px;
 }
