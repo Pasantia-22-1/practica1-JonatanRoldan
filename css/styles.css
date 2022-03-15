@@ -1,2 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9976365546218487) 35%, rgba(15,127,136,1) 74%, rgba(0,136,144,1) 100%);
+}  
+nav ul li {
+    float: left;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main div {
+    text-align: center;
+}
+footer{
+    background: rgb(2,0,36);
+}
+img{
+    margin: 15px;
+}
+main p img {
+    width: 150px;
+    height: 150px;
+}
